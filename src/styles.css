@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+:host ::ng-deep .ql-container {
+  height: 300px;
+  border: 1px solid #ccc;
+}
+
+:host ::ng-deep .ql-editor {
+  min-height: 200px;
+}
+
+:host ::ng-deep .ql-editor table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+:host ::ng-deep .ql-editor td,
+:host ::ng-deep .ql-editor th {
+  border: 1px solid #ccc;
+  padding: 4px;
+}
+
+.ql-editor table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.ql-editor td,
+.ql-editor th {
+  border: 1px solid #ccc;
+  padding: 4px;
+}
+
+.ql-editor table.ql-better-table {
+  margin-top: 16px;
+}
